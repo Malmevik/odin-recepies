@@ -25,6 +25,10 @@ button {
     text-align: center;
 }
 
+#indexlist{
+    list-style-type: none;
+}
+
 h2,
 p{
     text-align: center;
@@ -94,6 +98,7 @@ p{
 body{
     background-image: url("images/background-image.png");
     background-position: center;
+    background-attachment: fixed;
 }
 
 .back{
