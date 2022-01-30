@@ -77,17 +77,6 @@ p{
     margin-left: 30%;
 }
 
-.description{
-    background-color: deeppink;
-    border: 3px solid green;
-    text-align: center;
-}
-
-.instructions{
-    background-color: deeppink;
-    border: 3px solid green;
-    text-align: center;
-}
 
 .preview{
     background-color: deeppink;
@@ -105,11 +94,4 @@ body{
     background-color: deeppink;
     font-size: 16px;
     text-align: center;
-}
-
-.recepie-container{
-    height: auto;
-    width: fit-content;
-    background-color: hotpink;
-    border: 3px solid green;
 }
