@@ -15,7 +15,8 @@ h1 {
 }
 
 ul {
-    list-style-type: none;
+    list-style-type:square;
+    list-style-position: outside;
 }
 
 button {
@@ -24,21 +25,20 @@ button {
     text-align: center;
 }
 
+h2,
+p{
+    text-align: center;
+}
+
 .container {
-    height: 34px;
-    position: absolute;
+    height: fit-content;
+    width: auto;
+    position: relative;
     border: 3px solid green;
+    background-color: deeppink;
   }
   
 .item1 {
-    margin: 0;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-.item2 {
     margin: 0;
     position: absolute;
     top: 40%;
@@ -46,7 +46,7 @@ button {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.item3 {
+.item2 {
     margin: 0;
     position: absolute;
     top: 45%;
@@ -54,8 +54,57 @@ button {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+.item3 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.block{
+    background-color: deeppink;
+    border: 3px solid green;
+    text-align: center;
+    width: 600px;
+    height: auto;
+    margin-right: 50%;
+    margin-left: 30%;
+}
+
+.description{
+    background-color: deeppink;
+    border: 3px solid green;
+    text-align: center;
+}
+
+.instructions{
+    background-color: deeppink;
+    border: 3px solid green;
+    text-align: center;
+}
+
+.preview{
+    background-color: deeppink;
+    border: 3px solid green;
+    text-align: center;
+}
 
 body{
     background-image: url("images/background-image.png");
     background-position: center;
+}
+
+.back{
+    background-color: deeppink;
+    font-size: 16px;
+    text-align: center;
+}
+
+.recepie-container{
+    height: auto;
+    width: fit-content;
+    background-color: hotpink;
+    border: 3px solid green;
 }
